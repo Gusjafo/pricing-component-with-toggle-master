@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+.img-top-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 80%;
+}
+
+.img-bottom-bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40%;
+}
+
+.row {
+  margin: 40px 15vw;
+  border: 1px solid;
+  border-color: blue;
+  padding-left: 4%;
+}
+
+.col {
+  float: left;
+  width: 280px;
+  height: 350px;
+  border: 1px solid;
+  border-color: red;
+  /* border-radius:  */
+}
+
+.medium-col {
+  position: relative;
+  top: -20px;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.attribution {
+  display: grid;
+}
