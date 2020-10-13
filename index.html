@@ -6,112 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | [Challenge Name Here]</title>
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <img src="images\bg-top.svg" alt="imagen de fondo superior" class="img-top-bg">
   <img src="images\bg-bottom.svg" alt="imagen de fondo superior" class="img-bottom-bg">
-  <!-- Annually
-  Monthly
-  &dollar;199.99
-  &dollar;249.99
-  &dollar;399.99 -->
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Our Pricing</h1>
-    <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
-  </div>
 
-  <div class="row">
-    <div class="col">
-      <div class="">
-        <h4 class="">Basic</h4>
+    <main class="container">
+      <h1>Our Pricing</h1>
+
+      <input type="checkbox" class="toggle-check" name="pricing-checkbox" id="pricing-checkbox">
+      <label class="switch" for="pricing-checkbox">
+        <span>Annually</span>
+        <span class="slider"></span>
+        <span>Monthly</span>
+      </label>
+
+      <div class="row">
+        <div class="col">
+          <h4>Basic</h4>
+          <p class="value"><small>&dollar;</small>19.99</p>
+          <p class="value"><small>&dollar;</small>199.99</p>
+          <hr>
+          <p>500 GB Storage</p>
+          <hr>
+          <p>2 Users Allowed</p>
+          <hr>
+          <p>Send up to 3 GB</p>
+          <hr>
+          <a class="btn">Learn More</a>
+        </div>
+        <div class="col">
+          <h4>Professional</h4>
+          <p class="value"><small>&dollar;</small>24.99</p>
+          <p class="value"><small>&dollar;</small>249.99</p>
+          <hr>
+          <p>1 TB Storage</p>
+          <hr>
+          <p>5 Users Allowed</p>
+          <hr>
+          <p>Send up to 10 GB</p>
+          <hr>
+          <a class="btn">Learn More</a>
+        </div>
+        <div class="col">
+          <h4>Master</h4>
+          <p class="value"><small>&dollar;</small>39.99</p>
+          <p class="value"><small>&dollar;</small>399.99</p>
+          <hr>
+          <p>2 TB Storage</p>
+          <hr>
+          <p>10 Users Allowed</p>
+          <hr>
+          <p>Send up to 20 GB</p>
+          <hr>
+          <a class="btn">Learn More</a>
+        </div>
       </div>
-      <h1 class=""><small class="">&dollar;</small>19.99</h1>
-      <p>500 GB Storage</p>
-      <p>2 Users Allowed</p>
-      <p>Send up to 3 GB</p>
-      <button type="button" class="">Learn More</button>
-    </div>
-    <div class="col medium-col">
-      <div class="">
-        <h4 class="">Professional</h4>
-      </div>
-      <h1 class=""><small class="">&dollar;</small>24.99</h1>
-      <p>1 TB Storage</p>
-      <p>5 Users Allowed</p>
-      <p>Send up to 10 GB</p>
-      <button type="button" class="">Learn More</button>
-    </div>
-    <div class="col">
-      <div class="">
-        <h4 class="">Master</h4>
-      </div>
-      <h1 class=""><small class="">&dollar;</small>39.99</h1>
-      <p>2 TB Storage</p>
-      <p>10 Users Allowed</p>
-      <p>Send up to 20 GB</p>
-      <button type="button" class="">Learn More</button>
-    </div>
-  </div>
 
 
+    </main>
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
 
-<!-- <div class="container">
-  <div class="card-deck mb-3 text-center">
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Basic</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title"><small class="text-muted">&dollar;</small>19.99</h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>500 GB Storage</li>
-          <li>2 Users Allowed</li>
-          <li>Send up to 3 GB</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Learn More</button>
-      </div>
-    </div>
-    <div class="card mb-4 shadow-sm columna-medio">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Professional</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title"><small class="text-muted">&dollar;</small>24.99</h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>1 TB Storage</li>
-          <li>5 Users Allowed</li>
-          <li>Send up to 10 GB</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Learn More</button>
-      </div>
-    </div>
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Master</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title"><small class="text-muted">&dollar;</small>39.99</h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>2 TB Storage</li>
-          <li>10 Users Allowed</li>
-          <li>Send up to 20 GB</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Learn More</button>
-      </div>
-    </div>
-  </div> -->
+<!-- <div class="attribution">
+Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+Coded by <a href="#">Your Name Here</a>.
+</div> -->
